@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubhendra Nath Das | PhD Researcher Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <style>
+        :root {
+            --primary-color: #2c3e50; /* Deep Academic Blue */
+            --accent-color: #3498db;  /* Soft Blue */
+            --text-color: #333333;
+            --bg-light: #f8f9fa;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.7;
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        .header-container h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+
+        .header-container p {
+            margin: 0.5rem 0 1.5rem 0;
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .social-links a {
+            color: white;
+            font-size: 1.5rem;
+            margin: 0 10px;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .social-links a:hover {
+            color: var(--accent-color);
+        }
+
+        nav {
+            background: #ffffff;
+            border-bottom: 1px solid #e2e8f0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            text-align: center;
+            padding: 0.8rem 0;
+        }
+
+        nav a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+            margin: 0 15px;
+        }
+
+        nav a:hover {
+            color: var(--accent-color);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem 20px;
+        }
+
+        section {
+            padding: 2rem 0;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        section:last-child {
+            border-bottom: none;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            border-left: 4px solid var(--accent-color);
+            padding-left: 10px;
+            margin-bottom: 1.5rem;
+        }
+
+        .profile-wrapper {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .profile-img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid var(--accent-color);
+        }
+
+        .pub-card {
+            margin-bottom: 1.5rem;
+            background: var(--bg-light);
+            padding: 1.2rem;
+            border-radius: 6px;
+        }
+
+        .pub-title {
+            font-weight: bold;
+            margin: 0 0 0.3rem 0;
+            font-size: 1.1rem;
+        }
+
+        .pub-authors {
+            font-size: 0.95rem;
+            margin: 0 0 0.3rem 0;
+            color: #444;
+        }
+
+        .me {
+            text-decoration: underline;
+            font-weight: 600;
+            color: var(--primary-color);
+        }
+
+        .pub-venue {
+            font-style: italic;
+            color: #555;
+            font-size: 0.9rem;
+        }
+
+        .pub-links {
+            margin-top: 0.5rem;
+        }
+
+        .pub-links a {
+            display: inline-block;
+            background: #ffffff;
+            border: 1px solid #cbd5e1;
+            padding: 0.2rem 0.6rem;
+            font-size: 0.8rem;
+            border-radius: 4px;
+            text-decoration: none;
+            color: var(--primary-color);
+            margin-right: 5px;
+        }
+
+        .pub-links a:hover {
+            background: var(--accent-color);
+            color: white;
+            border-color: var(--accent-color);
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 0;
+            background: var(--bg-light);
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 600px) {
+            .profile-wrapper {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <h1>Shubhendra Nath Das</h1>
+            <p>PhD Scholar | Exoplanet Instrumentation & Characterization</p>
+            <div class="social-links">
+                <a href="https://scholar.google.com/citations?user=XgMpSqUAAAAJ&hl=en&oi=ao" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+                <a href="https://orcid.org/my-orcid?orcid=0009-0006-9996-1814" target="_blank" title="ORCID"><i class="ai ai-orcid"></i></a>
+                <a href="https://github.com/YOUR_USERNAME" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.researchgate.net/profile/Shubhendra-Das/research" target="_blank" title="ResearchGate"><i class="ai ai-researchgate"></i></a>
+                <a href="mailto:shubhendranathdas@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#research">Research & Publications</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        
+        <section id="about">
+            <div class="profile-wrapper">
+                <img src="https://lh3.googleusercontent.com/d/1T2teyLWEnKYxuq-HrsEB4I75kVNtZKRC" alt="Shubhendra Nath Das" class="profile-img">
+                <div>
+                    <h2>About Me</h2>
+                    <p>Hello! I am a PhD scholar specializing in optical and optomechanical instrumentation designed for the exoplanet field, specifically focused on the discovery and characterization of exoplanets. My primary research interests lie in investigating the formation and evolution of extreme, anomalous planetary architectures.</p>
+                    <p>I hold a foundational scientific conviction that a comprehensive, unified theory will one day resolve our lingering questions regarding planetary origins and evolutionary paths. My work aims to build and refine the high-precision tools necessary to unlock those answers.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="research">
+            <h2>Publications & Research</h2>
+
+            <div class="pub-card">
+                <p class="pub-title">TOI-6884b: A low-mass brown dwarf transiting a slightly evolved star</p>
+                <p class="pub-authors">Khandelwal, A., <span class="me">Das, S. N.</span>, Sharma, R., Chakraborty, A., Dwivedi, C., Baliwal, S., Collins, K. A., Latham, D. W., et al.</p>
+                <p class="pub-venue">Monthly Notices of the Royal Astronomical Society (2026) | pages: stag988</p>
+                <div class="pub-links">
+                    <a href="https://doi.org/10.1093/mnras/stag988" target="_blank"><i class="fas fa-link"></i> Publisher Link</a>
+                    <a href="https://academic.oup.com/mnras/advance-article-pdf/doi/10.1093/mnras/stag988/68437920/stag988.pdf" target="_blank"><i class="fas fa-file-pdf"></i> PDF</a>
+                </div>
+            </div>
+
+            <div class="pub-card">
+                <p class="pub-title">TOI-7154b: A Close-in Massive Brown Dwarf in an Eccentric Orbit</p>
+                <p class="pub-authors">Das, R. Ch., Dwivedi, C., Sharma, R., Bhaskar, H. G., Nikitha, K. J., Bieryla, A., Safonov, B. S., <span class="me">Das, S. N.</span>, Chakraborty, A., et al.</p>
+                <p class="pub-venue">The Astronomical Journal, Vol. 171, No. 6, p. 361 (2026)</p>
+                <div class="pub-links">
+                    <a href="https://doi.org/10.3847/1538-3881/ae66ff" target="_blank"><i class="fas fa-link"></i> Publisher Link</a>
+                </div>
+            </div>
+
+            <div class="pub-card">
+                <p class="pub-title">Design and development of Fabry–Pérot based wavelength calibration system for PARAS-2 spectrograph</p>
+                <p class="pub-authors"><span class="me">Das, S. N.</span>, Bhardwaj, K. K., Chakraborty, A., Lad, K. A., Prasad, J. S. S. V. N., Sharma, R., Jitendran, N., and Joshi, V.</p>
+                <p class="pub-venue">Journal of Astronomical Telescopes, Instruments, and Systems, Vol. 12, No. 1, p. 015003 (2026)</p>
+                <div class="pub-links">
+                    <a href="https://doi.org/10.1117/1.JATIS.12.1.015003" target="_blank"><i class="fas fa-link"></i> Publisher Link</a>
+                </div>
+            </div>
+
+            <div class="pub-card">
+                <p class="pub-title">Discovery and characterization of a dense sub-Saturn TOI-6651b</p>
+                <p class="pub-authors">Baliwal, S., Sharma, R., Chakraborty, A., Khandelwal, A., Nikitha, K. J., Safonov, B. S., Strakhov, I. A., Montalto, M., Eastman, J. D., Latham, D. W., Bieryla, A., Prasad, N. J. S. S. V., Bharadwaj, K. K., Lad, K. A., <span class="me">Das, S. N.</span>, and Nayak, A.</p>
+                <p class="pub-venue">Astronomy & Astrophysics, Vol. 691, p. A12 (2024)</p>
+                <div class="pub-links">
+                    <a href="http://dx.doi.org/10.1051/0004-6361/202450934" target="_blank"><i class="fas fa-link"></i> Publisher Link</a>
+                </div>
+            </div>
+
+            <div class="pub-card">
+                <p class="pub-title">Direct Optical Evidence of Late-Stage Infall in AB Aurigae: An Anomalous [O I] Inflow and a Crushed Magnetosphere</p>
+                <p class="pub-authors">Sahu, D., Sharma, R., <span class="me">Das, S. N.</span>, Chakraborty, A., and Campbell-White, J.</p>
+                <p class="pub-venue">The Astrophysical Journal Letters <span class="pub-venue" style="color: #e67e22; font-weight: bold;">(Submitted, 2026)</span></p>
+            </div>
+        </section>
+
+        <section id="teaching">
+            <h2>Teaching & Service</h2>
+            <ul>
+                
+        </section>
+
+        <section id="contact">
+            <h2>Contact & Office</h2>
+            <p><strong>Office address:</strong> Physical Research Laboratory, Thaltej Campus, Room: 212, Sindhu Bhavan Marg, Ahmedabad, Gujarat-380059</p>
+            <p><strong>Personal Email (recommended to email here for faster response):</strong> shubhendranathdas@gmail.com</p>
+            <p><strong>Official Email:</strong> shubhendra@prl.res.in</p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>© 2026 Shubhendra Nath Das. Built with standard HTML/CSS. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
